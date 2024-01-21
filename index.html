@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea House</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/e4cf0b2261.js" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+  <header class=" my-24 container mx-auto bg-slate-400">
+    <div class=" grid grid-cols-1 lg:flex justify-between items-center border-2 border-red-700 ">
+      <div class=" text-center">
+        <h2 class=" text-3xl lg:text-7xl font-extrabold">It's good <br>
+          tea time at The Tea <br>
+          House</h2>
+        <p class="text-xl mt-7 font-semibold leading-7">Tea and Botanical Solutions Supplier Give Optimum Satisfaction
+          To
+          Your Taste Buds.</p>
+        <button class="btn btn-active btn-secondary mt-7 fa-thin fa-arrow-up-to-line">Secondary</button>
+      </div>
+      <div class="relative">
+        <img src="images/banner.png" alt="">
+        <div
+          class="bg-white w-[70%] lg:w-[255px] flex items-center justify-center  lg:absolute bottom-12  lg:bottom-16 left-44 rounded-lg space-x-5">
+          <i class=" text-3xl bg-amber-300 fa-solid fa-star"></i>
+          <div class="">
+            <h4 class="text-3xl font-semibold">5.00</h4>
+            <p class="font-semibold">Trust Pilot Ratings</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- featured products -->
+    <section class="container mx-auto mt-16">
+      <div class="">
+        <div class="text-center">
+          <h2 class="text-3xl lgtext-5xl font-extrabold">Our Featured Products</h2>
+          <p class="mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration
+            in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+        <div class=" grid mt-5 gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <!-- first card -->
+          <div class="">
+            <div class=" card bg-base-200 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-extrabold">milk Tea</h2>
+                <p class="semibolds">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+          </div>
+          <!-- second card -->
+          <div class="">
+            <div class=" card bg-base-200 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-extrabold">milk Tea</h2>
+                <p class="semibolds">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+          </div>
+          <!-- third card -->
+          <div class="">
+            <div class=" card bg-base-200 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-extrabold">milk Tea</h2>
+                <p class="semibolds">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+          </div>
+          <!-- fourth card -->
+          <div class="">
+            <div class=" card bg-base-200 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-extrabold">milk Tea</h2>
+                <p class="semibolds">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- great tea fresh tea section -->
+    <section class=" container mx-auto my-24 flex flex-col lg:flex-row">
+      <div class="grid p-10 gap-8 grid-cols-1 md:grid-cols-2 flex-1">
+        <div class="rounded-xl bg-gradient-to-r from-red-100 to-amber-100 h-36"></div>
+        <div class="row-span-2 flex justify-center rounded-xl bg-orange-50">
+          <img src="images/fresh-1.png" alt="">
+        </div>
+        <div class="row-span-2 flex rounded-xl justify-center bg-green-50">
+          <img src="images/fresh-2.png" alt="">
+        </div>
+        <div class="rounded-xl bg-gradient-to-r from-gray-300 to-yellow-100 h-36"></div>
+      </div>
+      <div class="space-y-5 border p-10 lg:pt-20 flex-1">
+        <h2 class="text-5xl font-extrabold">Great Tea, Freshly Presented</h2>
+        <p class="">The meaning of gong cha is chanese is to provide the best tea to emperor
+          from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong
+          cha had been deeply appreciated by its custoers because of good words of mouth and unique customized service
+          orginated from Taiwan.</p>
+        <h4 class=" text-xl font-extrabold mt-8">Unique test</h4>
+        <p class="">A Unique and different style from other teapots gives a luxurious and minimalist
+          impression</p>
+        <h4 class=" text-xl font-extrabold">Unique test</h4>
+        <p class="">A Unique and different style from other teapots gives a luxurious and minimalist
+          impression</p>
+
+      </div>
+    </section>
+    <section
+      class="container mx-auto my-24 bg-gradient-to-r from-amber-400 to-red-500 flex  flex-col lg:flex-row justify-around relative">
+      <div class=" text-center p-4 lg:p-20 lg:mr-40 flex-1">
+        <h2 class="text-white mt-5 text-3xl lg:text-5xl font-extrabold">Meet Our Supper Clients</h2>
+        <p class="text-white mt-5 font-medium">There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour, or randomised words which don't look even
+          slightly believable. </p>
+        <button class="btn text-2xl mt-8 font-bold text-red-700 bg-white mt-5">Show All</button>
+      </div>
+      <div class=" flex-1">
+        <!-- first card -->
+        <div class="w-[100%] opacity-10 p-4 lg:p-10">
+          <div class="card bg-base-100 relative">
+            <figure class="px-10 pt-10 absolute -left-16 -top-16">
+              <img src="images/client.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center relative">
+              <p class="font-[400] ">We are providing the best and suitable home insurance services for the people who
+                are interested to treatment</p>
+              <h2 class="font-bold">JN. SHAWON</h2>
+              <p class="font-[400]">WEB-DEVELOPER</p>
+              <div class=" lg:absolute top-36 right-12">
+                <img src="images/circles.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- second card -->
+        <div class=" w-[100%] lg:w-[40%] p-4 lg:p- absolute lg:right-52 bottom-44">
+          <div class="card bg-base-100 relative">
+            <figure class="px-10 pt-10 absolute -left-16 -top-16">
+              <img src="images/client.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center relative">
+              <p class="font-[400] ">We are providing the best and suitable home insurance services for the people who
+                are interested to treatment</p>
+              <h2 class="font-bold">JN. SHAWON</h2>
+              <p class="font-[400]">WEB-DEVELOPER</p>
+              <div class=" lg:absolute top-36 right-12">
+                <img src="images/circles.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- third  card -->
+        <div class=" opacity-10 w-[100%] p-4 lg:p-10">
+          <div class="card bg-base-100 relative">
+            <figure class="px-10 pt-10 absolute -left-16 -top-16">
+              <img src="images/client.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center relative">
+              <p class="font-[400] ">We are providing the best and suitable home insurance services for the people who
+                are interested to treatment</p>
+              <h2 class="font-bold">JN. SHAWON</h2>
+              <p class="font-[400]">WEB-DEVELOPER</p>
+              <div class=" lg:absolute top-36 right-12">
+                <img src="images/circles.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
